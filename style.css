@@ -1,3 +1,45 @@
 body {
-    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: rgb(228, 228, 71);
+    color: rgb(228, 228, 71);
+    margin: 125px 5px 5px 5px; /*only need to increase margin on yellow to bring the whole thing down*/
+    padding: 70px;
+    font-size: 20px;
+}
+
+.blue {
+    background-color: rgb(92, 158, 199);
+    color: rgb(92, 158, 199);
+    margin: 5px 5px 5px 5px;
+    padding: 70px;
+    font-size: 20px;
+}
+
+.red {
+    background-color: rgb(199, 64, 64);
+    color: rgb(199, 64, 64);
+    margin: 5px;
+    padding: 70px;
+    font-size: 20px;
+}
+
+.green {
+    background-color: rgb(83, 161, 83);
+    color: rgb(83, 161, 83);
+    margin: 5px;
+    padding: 70px;
+    font-size: 20px;
+}
+
+.next {
+    background-color: rgb(151, 23, 23);
+    color: black;
+    margin: 120px 1265px 5px 5px;
+    padding: 22px;
+    font-size: 24px;
+    font-weight: bold;
 }
