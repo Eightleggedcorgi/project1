@@ -3,39 +3,36 @@ body {
     font-weight: bold;
 }
 
-.yellow {
+/* button styles */
+.yellow-button {
     background-color: rgb(228, 228, 71);
     color: rgb(228, 228, 71);
     margin: 125px 5px 5px 5px; /*only need to increase margin on yellow to bring the whole thing down*/
     padding: 70px;
     font-size: 20px;
-} /* can make an identical styler with :active on the end of .yellow to change the color */
-
-.blue {
+} /* :active kinda works but cant be controlled */
+.blue-button {
     background-color: rgb(92, 158, 199);
     color: rgb(92, 158, 199);
     margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
-
-.red {
+.red-button {
     background-color: rgb(199, 64, 64);
     color: rgb(199, 64, 64);
     margin: 5px;
     padding: 70px;
     font-size: 20px;
 }
-
-.green {
+.green-button {
     background-color: rgb(83, 161, 83);
     color: rgb(83, 161, 83);
     margin: 5px;
     padding: 70px;
     font-size: 20px;
 }
-
-.next {
+.next-button {
     background-color: rgb(151, 23, 23);
     color: black;
     margin: 120px 1265px 5px 5px;
@@ -44,33 +41,33 @@ body {
     font-weight: bold;
 }
 
-/* active section: TEMPORARY */
-
-.yellow:active {
+/* lit-up button styles */
+.yellow-button.selected {
     background-color: yellow;
     color: yellow;
     margin: 125px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
-.blue:active {
+.blue-button.selected {
     background-color: blue;
     color: blue;
     margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
-.red:active {
+.red-button.selected {
     background-color: red;
     color: red;
-    margin: 5px;
+    margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
-.green:active {
+.green-button.selected {
     background-color: green;
     color: green;
-    margin: 5px;
+    margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
+

@@ -1,26 +1,22 @@
 //order is yellow - blue / red - green
-let yellowLight = document.getElementById("yellow");
+const yellowLight = document.querySelector(".yellow-button");
+const blueLight = document.querySelector(".blue-button");
+const redLight = document.querySelector(".red-button");
+const greenLight = document.querySelector(".green-button");
 
-document.querySelector(".js-yellow-button").onclick = function () {
-    //alert("yellow.");
-    colorChange('yellow');
+document.querySelector(".yellow-button").onclick = function () {
+    yellowLight.classList.add("selected");
 }
-document.querySelector(".js-blue-button").onclick = function () {
-    alert("blue.");
+document.querySelector(".blue-button").onclick = function () {
+    blueLight.classList.add("selected");
 }
-document.querySelector(".js-red-button").onclick = function () {
-    alert("red.");
+document.querySelector(".red-button").onclick = function () {
+    redLight.classList.add("selected");
 }
-document.querySelector(".js-green-button").onclick = function () {
-    alert("green.");
+document.querySelector(".green-button").onclick = function () {
+    greenLight.classList.add("selected");
 }
 
-document.querySelector(".js-next-button").onclick = function () {
+document.querySelector(".next-button").onclick = function () {
     alert("next.");
-}
-
-function colorChange() {
-    
-    //yellowLight.classList.toggle('yellow'); //nukes the buttons styling
-    //yellowLight.className = 'yellow'; //doesnt do anything
 }
