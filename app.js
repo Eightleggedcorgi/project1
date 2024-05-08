@@ -3,7 +3,14 @@ const yellowLight = document.querySelector(".yellow-button");
 const blueLight = document.querySelector(".blue-button");
 const redLight = document.querySelector(".red-button");
 const greenLight = document.querySelector(".green-button");
+let levelCount = 0;
+let levelDone = true;
+let stupidIdiotVariable = 0;
 
+function playAudio(url) {
+    new Audio(url).play();
+}
+//basic button functions
 document.querySelector(".yellow-button").onclick = function () {
     yellowLight.classList.add("selected");
     setTimeout(function() {
@@ -30,5 +37,12 @@ document.querySelector(".green-button").onclick = function () {
 
 }
 document.querySelector(".next-button").onclick = function () {
-    alert("next.");
+    if (levelDone === true) {
+        levelCount++;
+        levelDone = false;
+    }
+    else {
+        stupidIdiotVariable++;
+        playAudio('error-10.mp3');
+    }
 }
