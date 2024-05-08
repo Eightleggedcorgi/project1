@@ -5,29 +5,25 @@ body {
 
 /* button styles */
 .yellow-button {
-    background-color: rgb(228, 228, 71);
-    color: rgb(228, 228, 71);
+    background-color: rgb(226, 226, 107);
     margin: 125px 5px 5px 5px; /*only need to increase margin on yellow to bring the whole thing down*/
     padding: 70px;
     font-size: 20px;
 } /* :active kinda works but cant be controlled */
 .blue-button {
     background-color: rgb(92, 158, 199);
-    color: rgb(92, 158, 199);
     margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
 .red-button {
-    background-color: rgb(199, 64, 64);
-    color: rgb(199, 64, 64);
+    background-color: rgb(201, 81, 81);
     margin: 5px;
     padding: 70px;
     font-size: 20px;
 }
 .green-button {
-    background-color: rgb(83, 161, 83);
-    color: rgb(83, 161, 83);
+    background-color: rgb(92, 165, 92);
     margin: 5px;
     padding: 70px;
     font-size: 20px;
@@ -44,28 +40,24 @@ body {
 /* lit-up button styles */
 .yellow-button.selected {
     background-color: yellow;
-    color: yellow;
     margin: 125px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
 .blue-button.selected {
     background-color: blue;
-    color: blue;
     margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
 .red-button.selected {
     background-color: red;
-    color: red;
     margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
 }
 .green-button.selected {
-    background-color: green;
-    color: green;
+    background-color: rgb(8, 233, 8);
     margin: 5px 5px 5px 5px;
     padding: 70px;
     font-size: 20px;
