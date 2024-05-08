@@ -62,4 +62,12 @@ body {
     padding: 70px;
     font-size: 20px;
 }
+.next-button.selected {
+    background-color: rgb(100, 13, 13);
+    color: black;
+    margin: 120px 1265px 5px 5px;
+    padding: 22px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
