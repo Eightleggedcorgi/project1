@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; /*use display none*/
 }
 
 /* button styles */
