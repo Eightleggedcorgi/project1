@@ -31,8 +31,16 @@ body {
 .next-button {
     background-color: rgb(151, 23, 23);
     color: black;
-    margin: 120px 1265px 5px 5px;
+    margin: 80px 1065px 5px 5px;
     padding: 22px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.redo-button {
+    background-color: rgb(20, 20, 56);
+    color: black;
+    margin: 5px 1065px 5px 5px;
+    padding: 19px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -65,8 +73,16 @@ body {
 .next-button.selected {
     background-color: rgb(100, 13, 13);
     color: black;
-    margin: 120px 1265px 5px 5px;
+    margin: 80px 1065px 5px 5px;
     padding: 22px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.redo-button.selected {
+    background-color: darkcyan;
+    color: black;
+    margin: 5px 1065px 5px 5px;
+    padding: 19px;
     font-size: 24px;
     font-weight: bold;
 }
