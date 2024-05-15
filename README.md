@@ -28,10 +28,10 @@ Users can like it.
 
 ## <a name="nextsteps"></a>Project Next Steps
 * Add an endless mode of likely increasing complexity and maybe even speed for maximum evil
-Add 4 more buttons with different colors and notes for 8 total, maybe to the base game, maybe optionally as a difficulty mode
+* Add 4 more buttons with different colors and notes for 8 total, maybe to the base game, maybe optionally as a difficulty mode
 * Add a scoreboard. 
 * Users can change the theme.
 
 * You can view the repository:
-[Github.com](https://github.com/Gr8ness21/Connect-4)
+[Github.com](https://github.com/Eightleggedcorgi/project1)
 * If unable to view please go live locally through VS Code
